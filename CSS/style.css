@@ -1,50 +1,91 @@
 .navigation {
     display: flex;
   }
-.inline-block{
-display: inline-block; 
-vertical-align: top;
-}
-.logo{
+  
+  .inline-block {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .logo {
     width: 23%;
     padding: 1%;
-    text-align: center;
-}
-nav{
+  }
+  
+  nav {
     width: 73%;
     padding: 1%;
-}
-ul{
+  }
+  
+  ul {
     width: 50%;
     margin-left: auto;
-    list-style-type: none;
-    display: inline;
-}
-.logo img{
-    display: block;
-    margin: 0 auto;
-    height: 100px;
-}
-.heroimg{
-    height: 600px;
-    padding: 300px;
-}
-.content{
-    width: 500px;
-    margin: 0 auto;
-}
-footer{
-    background-color: #373738;
+  }
+  li{
+    padding: 15px;
+  }
+  
+  .mySkills {
+    text-align: center;
     padding: 20px;
 }
-footer ul {
+
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flexChild {
+    text-align: center;
+    margin: 10px;
+    max-width: 300px;
+    /* Add additional styles (e.g., width, margin, padding) as needed */
+}
+
+/* My Work Section */
+/* My Work Section Constructed using CSS Grid */
+.myWork {
+    text-align: center;
+    padding: 20px;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    /* Add additional styles (e.g., grid-template-rows, grid-template-areas) as needed */
+}
+
+.workItem {
+    /* Add styles for each work item, including margin, padding, etc. */
+}
+  
+  /* Footer CSS */
+  footer {
+    background-color: #373738;
+    padding: 20px;
+    margin-top: 20%;
+  }
+  
+  footer ul {
     display: inline-block;
     vertical-align: top;
     padding: 0;
   }
   
   footer li {
-    list-style-type: none;
+    list-style: none;
     color: white;
-    padding: 5px;
+    padding: 15px;
+  }
+  body{
+    background-color: #F5F4EB;
+    margin: 0;
+    font-family: Arial, sans-serif; 
+    color: #333;
+  }
+  p{
+    
   }
